@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 243, 243);
+}
+a{
+    text-decoration: none;
+    color: #0095f6;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.w50{
+    width: 50%;
+    float: left;
+}
+img{
+    width: 100%;
+}
+.box{
+    border: 1px solid #ccc;
+   padding: 15px;
+    width: 60%;
+    border-radius: 20px;
+    background-color: white;
+}
+.box1{
+    width: 60%;
+    padding: 15px;
+    margin-top: 15px;
+}
+.box1 p{
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+}
+.img{
+    width: 160px;
+    margin: 0 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.user{
+    width: 120px;
+    border-radius: 50px;
+    align-items: center;
+    margin: 0 35%;
+}
+.user img{
+    border-radius: 50%;
+}
+.conteudo{
+    margin-top: 15px;
+    width: 100%;
+}
+.conteudo p{
+    width: 60%;
+    margin: 0 20%;
+    background-color: #0095f6;
+    color:  white;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 12px;
+}
+.remove{
+    width: 100%;
+    text-align: center;
+    color: #0095f6;
+    padding: 20px 0;
+}
+#conteudo p{
+ text-align: center;
+ color: gray;
+}
+#conteudo p span{
+    color: gray;
+}
+a img{
+    width: 60%;
+    margin: 10px 20%;
+}
+@media(max-width: 700px){
+    .w50{
+        width: 100%;
+    } 
+    .box, .box1{
+        width: 80%;
+        margin: 10px 10%;
+    }
+    .box1 .w50{
+        width: 50%;
+    }
+}
